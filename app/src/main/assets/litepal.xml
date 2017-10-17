@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--目录存在与app/src/main/assets-->
+<!--具体配置看LitePal的github的官方介绍下面参数的含义-->
+<litepal>
+    <dbname value="BookStore"></dbname>
+    <version value="2"></version>
+    <list>
+        <mapping class="com.example.android.litepaltest.Book"></mapping>
+        <mapping class="com.example.android.litepaltest.Category"></mapping>
+    </list>
+</litepal>
